@@ -4,19 +4,19 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Car ferrari = new Car();
-        ferrari.Brand = "Ferrari";
-        ferrari.Color = "Red";
-        ferrari.MaxSpeed = 350;
-        ferrari.HorsePower = 450;
-        ferrari.CarType = CarType.Gasoline;
+        var ferrari = new Car("Ferrari", 
+            "Red", 
+            350, 
+            450, 
+            CarType.Gasoline);
 
-        Car volvo = new Car();
-        volvo.Brand = "Volvo";
-        volvo.Color = "Blue";
-        volvo.MaxSpeed = 230;
-        volvo.HorsePower = 250;
-        volvo.CarType = CarType.Diesel;
+
+        var volvo = new Car("Volvo", 
+            "Blue", 
+            230, 
+            250, 
+            CarType.Diesel);
+
 
         ferrari.ShowInfo();
         ferrari.Drive();

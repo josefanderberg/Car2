@@ -8,6 +8,19 @@ internal class Car
     public int HorsePower;
     public CarType CarType;
 
+    public Car(string brand, 
+        string color, 
+        int maxSpeed, 
+        int horsePower, 
+        CarType carType)
+    {
+        Brand = brand;
+        Color = color;
+        MaxSpeed = maxSpeed;
+        HorsePower = horsePower;
+        CarType = carType;
+    }
+
 
     public void ShowInfo()
     {
