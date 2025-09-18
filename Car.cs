@@ -5,10 +5,13 @@ internal class Car
     public string Brand;
     public string Color;
     public int MaxSpeed;
+    public int HorsePower;
+    public CarType CarType;
+
 
     public void ShowInfo()
     {
-        Console.WriteLine($"Brand:  {Brand}, Color: {Color}, MaxSpeed: {MaxSpeed}");
+        Console.WriteLine($"Brand:  {Brand}, Color: {Color}, MaxSpeed: {MaxSpeed}, HorsePower: {HorsePower}");
     }
     public void Drive()
     {

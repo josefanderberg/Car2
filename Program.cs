@@ -8,11 +8,15 @@ internal class Program
         ferrari.Brand = "Ferrari";
         ferrari.Color = "Red";
         ferrari.MaxSpeed = 350;
+        ferrari.HorsePower = 450;
+        ferrari.CarType = CarType.Gasoline;
 
         Car volvo = new Car();
         volvo.Brand = "Volvo";
         volvo.Color = "Blue";
         volvo.MaxSpeed = 230;
+        volvo.HorsePower = 250;
+        volvo.CarType = CarType.Diesel;
 
         ferrari.ShowInfo();
         ferrari.Drive();
