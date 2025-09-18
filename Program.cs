@@ -21,10 +21,15 @@ internal class Program
         ferrari.ShowInfo();
         ferrari.Drive();
         ferrari.Honk();
+        ferrari.Fuel();
+        ferrari.IsFasterThan(volvo);
 
+        Console.WriteLine();
+        
         volvo.ShowInfo();
         volvo.Drive();
         volvo.Honk();
-
+        volvo.Fuel();
+        volvo.IsFasterThan(ferrari);
     }
 }
