@@ -17,4 +17,9 @@ internal class Car
     {
         Console.WriteLine($"The {Brand} car is driving");
     }
+
+    public void Honk()
+    {
+        Console.WriteLine($"TUUUUUUT");
+    }
 }
