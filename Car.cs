@@ -12,6 +12,6 @@ internal class Car
     }
     public void Drive()
     {
-        Console.WriteLine("The car is driving");
+        Console.WriteLine($"The {Brand} car is driving");
     }
 }
